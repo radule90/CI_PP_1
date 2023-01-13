@@ -23,3 +23,15 @@ html {
 }
 
 
+/* Header styles */
+
+/* Header background and font styles */
+
+.header {
+    font-family: 'Quicksand', sans-serif;
+    background-image: url('../images/header-img.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 40%;
+    height: 100vh;
+}

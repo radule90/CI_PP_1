@@ -109,3 +109,14 @@ html {
     font-size: 1.75rem;
     padding-block-end: 1rem;
 }
+
+/* Yoga icons styles */
+
+.icon-deco img {
+    width: 40%;
+}
+
+.icon-deco {
+    padding-block-start: 4rem;
+    text-align: center;
+}

@@ -62,11 +62,23 @@ html {
     text-shadow: 0 0 1px #1a1a1a;
 }
 
-.nav-header a:hover,
-.nav-header a:focus {
+.nav-list a:hover,
+.nav-list a:focus {
     color: #f5f5f5;
     border-block-end: 1px solid #f5f5f5;
+    text-shadow: 1px 1px 3px #1a1a1a;
     border-radius: 4px;
     padding-block-end: .25em;
 }
 
+/* Main heading styles */
+
+.main-heading {
+    font-size: 2rem;
+}
+
+.main-heading a:hover,
+.main-heading a:focus {
+    color: #f5f5f5;
+    text-shadow: 1px 1px 3px #1a1a1a;
+}

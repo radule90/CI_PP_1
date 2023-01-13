@@ -132,3 +132,18 @@ html {
     background-attachment: fixed;
 }
 
+
+/* Blog section */
+/* Section heading and icon */
+
+.adventure-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1.5rem 0;
+}
+
+.adventure-wrap img {
+    width: 10vh;
+}

@@ -35,3 +35,38 @@ html {
     background-position: 40% 40%;
     height: 100vh;
 }
+
+/* Navigation bar styles */
+
+.nav-header {
+    background-color: rgba(0, 0, 0, .1);
+    padding: .75rem 1.25rem;
+}
+
+/* Navigation list and link styles */
+
+.nav-list {
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav-list li {
+    display: inline-block;
+    padding-block-start: .75rem;
+    padding-inline-start: .75rem;
+}
+
+.nav-header a {
+    text-decoration: none;
+    color: #1a1a1a;
+    text-shadow: 0 0 1px #1a1a1a;
+}
+
+.nav-header a:hover,
+.nav-header a:focus {
+    color: #f5f5f5;
+    border-block-end: 1px solid #f5f5f5;
+    border-radius: 4px;
+    padding-block-end: .25em;
+}
+

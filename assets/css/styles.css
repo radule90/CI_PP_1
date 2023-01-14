@@ -241,3 +241,36 @@ body {
 .column:last-child {
     display: none;
 }
+
+
+/* Gallery button (Instagram) styles*/
+.gallery-btn {
+    padding-block-start: 4rem;
+}
+
+.gallery-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.follow-instagram-wrap {
+    background-color: #9a9efb;
+    box-shadow: 0 0 5px #9a9efb;
+    border-radius: .25em .5em;
+    height: 2.5rem;
+    width: fit-content;
+    margin: 0 auto;
+    padding: .25em;
+}
+
+.follow-instagram-wrap .fa-square-instagram {
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.follow-instagram-wrap:hover,
+.follow-instagram-wrap:focus {
+    background-color: #fff;
+    color: #9a9efb;
+    transform: scale(1.1);
+}

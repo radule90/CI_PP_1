@@ -165,3 +165,14 @@ html {
     background-attachment: fixed;
 }
 
+
+/* Article 2 (Positano) background image */
+
+.article-image-positano {
+    height: 100vh;
+    background-image: url('../images/positano.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+    background-attachment: fixed;
+}

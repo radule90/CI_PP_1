@@ -153,3 +153,15 @@ html {
     font-size: 1.5rem;
     padding-block-end: 1rem;
 }
+
+/* Article 1 (Serifos) background image */
+
+.article-image-serifos {
+    height: 100vh;
+    background-image: url('../images/greece.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    background-attachment: fixed;
+}
+

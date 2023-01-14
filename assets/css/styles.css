@@ -202,3 +202,42 @@ body {
     background-position: 53%;
     background-attachment: fixed;
 }
+
+
+/* Gallery section */
+
+.gallery-section .subheading {
+    text-align: center;
+    padding-block-end: 4rem;
+}
+
+.gallery-section {
+    background-color: #fff;
+    padding: 4rem 1.5rem;
+}
+
+
+/* Gallery container */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+/* Images and column containers for small screens */
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+}
+
+.column img {
+    width: 100%;
+}
+
+/* Last column in image gallery is hidden for small screens */
+.column:last-child {
+    display: none;
+}

@@ -180,3 +180,14 @@ body {
     background-position: 40%;
     background-attachment: fixed;
 }
+
+/* Article 3 (Ostend) background image */
+
+.article-image-ostend {
+    height: 100vh;
+    background-image: url('../images/calais.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
+    background-attachment: fixed;
+}

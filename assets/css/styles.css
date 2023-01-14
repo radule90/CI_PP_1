@@ -191,3 +191,14 @@ body {
     background-position: 69%;
     background-attachment: fixed;
 }
+
+/* Article 4 (Calais) background image */
+
+.article-image-calais {
+    height: 100vh;
+    background-image: url('../images/calais1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 53%;
+    background-attachment: fixed;
+}

@@ -22,6 +22,11 @@ html {
     background-color: #e4e5fe;
 }
 
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
 
 /* Header styles */
 
@@ -164,7 +169,6 @@ html {
     background-position: 30%;
     background-attachment: fixed;
 }
-
 
 /* Article 2 (Positano) background image */
 

@@ -60,7 +60,7 @@ body {
 
 .nav-list li {
     display: inline-block;
-    padding-inline-start: 1.25rem;
+    padding-inline-start: 1rem;
 }
 
 .nav-list li:first-child {

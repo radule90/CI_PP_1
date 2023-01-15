@@ -1,108 +1,159 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milica Radulovic - My Yoga Adventure
 
-Welcome radule90,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+SLIKA AM I RESPONSIV
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This website is set up as a personal yoga travel blog, where users can learn more about Milica and her love for yoga, and travel and connect. In terms of appearance, I tried to keep a minimalistic look with little detail that will embellish the site for visitors.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+***
+## Visual Design
 
-`python3 -m http.server`
+### Colors
 
-A blue button should appear to click: _Make Public_,
+- For the base color, a shade of purple was chosen, a nice color that corresponds to the theme of the site.
+- For the color of the letters, a shade of dark gray was chosen because it is not as intense as pure black, it has a more pleasant appearance and does not hinder readability and accessibility.
+For the color of the letters, a shade of dark gray was chosen because it is not as intense as pure black, it has a more pleasant appearance and does not hinder readability and accessibility.
+- Colour contrast was first verified on [WebAIM](https://webaim.org/resources/contrastchecker/).
 
-Another blue button should appear to click: _Open Browser_.
+PALETA BOJA KORISCENIH
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Fonts
 
-A blue button should appear to click: _Make Public_,
+- I chose the font Open Sans, sans-serif letterform font from [Google Fonts](https://fonts.google.com), due to its clean appearance and readability, but it is not too serious for a website of this type.
+- Quicksand, also sans-serif letterform from [Google Fonts](https://fonts.google.com), alone to emphasize the specificity of the navigation bar without disturbing the appearance of the rest of the website.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Icons
 
-To log into the Heroku toolbelt CLI:
+- I have used [ICONS8](https://icons8.de) as a source for the decorative icons on the site, and adjusted the colors for website. Icons were selected that I thought complement the look of the website and do not disturb its essence.
+- I have used [Font Awsome](https://fontawesome.com) for social media.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+SLIKE GDE SU KORISCENE IKONE
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Images
 
-------
+- Images are a very important part of this site, because the theme of the site is yoga journey.
+- All photos are the property of Milica Radulovic.
+- I converted the images to [WebP](https://developers.google.com/speed/webp) format. After installing the libwep codec, the photos were converted in terminal with a command:
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
+```sh
+cwebp [options] input_file -o output_file.webp
 ```
 
-**Anything more?**
+***
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Styling / Formating
 
----
+- In HTML I have used semantic elements in appropriate places and HTML entities. Whereas I used div (non-semantic) elements as container for decorative images and for positioning.
+- I did most of the positioning with Flexbox (learnd at [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)), while I feel comfortable working with it.
+- For embellishment and a kind of interactivity, I applied the transform property with the function scale ([Code Institute - Love Running Project](https://codeinstitute.net/de/)) and skew function in several places.
 
-Happy coding!
+
+### Header section
+
+- The background image over the entire viewport seemed to me to be a fairly nice solution, because the user immediately gets to know the person whose journey they are going to read about.
+- I also add the transparent mask to navigation bar in order to improve readability.
+
+
+### About section
+
+- The heading is aligned left on purpose because the text is directly related to it and represents the whole.
+- I used a light shade of purple as the background color, because it seemed calming and relaxing and in line with the images and theme of the site.
+- The font color is a shade of gray and contrast with background-color is checkd with [WebAIM](https://webaim.org/resources/contrastchecker/).
+- As an addition to the text, there is a firelog pose icon from [ICONS8](https://icons8.de). a decoration that fits in with the rest.
+- I kept most of that concept as well through the blog section of the site.
+- Next comes image and is set as background with attachment proporty to fixed, in order to create an effect similar to parallax scroll ([W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)).
+
+
+### Blog section
+
+- I used a slightly modified concept in this section. I didn't want to deviate too much because these two are similar, they have a lot of text and images.
+- Between articles there are background images that also represent the demarcation between different sections and articles.
+
+
+### Gallery
+
+- I decided for a white background in the next two sections of the site, in order to avoid monotony and make it clear to the user that the part of the site is finished (let's call it the "text part of the site") and the sections related to social networks and contact begin.
+I used [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp) code of the gallery to adapt it to the requiremnets of the project.
+- The gallery is responsive. I decided that two columns should be displayed on small screens and three on large screens. I achieved this by setting the display of the last column container to none and using @media for a minimum width of 768px to display it again.
+- I added the instagram button as a suggestion to the user that they can find more images on the instagram profile of site owner.
+
+
+### Connect section
+
+- This section is separated from the rest with a border line, applied border image property with linear gradient (researched on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image)), it seemed like a nice and simple solution for dividing sections with a white background.
+- Then, I added a box shadow to make the shape stand out.
+- The form has validation and is responsive.
+
+
+### Footer
+
+- For this section i chose dark gray background color, at first I thought it should be a shade of purple, but however the site would become boring, this is how it suggests that this is the end of the site.
+- I included a short copyright text in it.
+- Arrow to return to the top of the page, and when hovered over it scales itself as a suggestion that this is the link.
+- Also included are links to social networks and the colors are inverted on the hover as a hint that this is the link to the user.
+
+
+***
+
+## Validation and testing
+
+### HTML
+- has been validated with [W3C Markup Validation Service](https://validator.w3.org).
+
+
+### CSS
+- has been validated with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+
+
+### Accessibility
+
+- Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).
+- The following results were achieved on Chrome Lighthouse:
+
+SLIKA REZULTATA
+
+- The site looks good on all common screen sizes, including 4k ([iOS Devices Bug](#bugs)).
+
+- The navigation bar, header, about, blog, connect and footer sections are all readable and understandable with working internal and external links.
+
+- The Connect form works, and requires input to every entry.
+
+
+### Bugs
+
+#### Unfixed bugs
+- Proporty background-attachment with value fixed does not work on iOS devices (iPads, iPhones).
+ 
+-  Possible solutions
+   - The solution that is to change the value of background-attachment to scroll for large mobile phones and tablets
+   - 
+
+***
+
+## Credits
+
+- [Code Institute](https://codeinstitute.net/de/)
+- Rory Patrick Sheridan (Mentor) - Great advice and guidance
+- [Mozilla Developer Networks](https://developer.mozilla.org/en-US/) - Additional learning resources
+- [W3Schools](https://www.w3schools.com) - Additional learning resources
+- [CSS-Tricks](https://css-tricks.com) - Additional learning resources
+- [Dave Gray](https://www.youtube.com/c/DaveGrayTeachesCode) - Additional learning resources
+- [Kevin Powell](https://www.youtube.com/@KevinPowell) - Additional learning resources
+- [BrowserStack](https://www.browserstack.com/) - Website Testing on iOS
+
+***
+
+## Content
+
+- The base code for the "Parallax" Scrolling effect was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp), and then adjusted for the needs of the site.
+- The base code for the Gallery section was taken from [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp), and then I adjusted it for the needs of the site.
+
+***
+
+## Media
+
+- The images belong to Milica Radulovic.
+- Decorative icons are taken from [ICONS8](https://icons8.de)
+- Icons for social networks are taken from [Font Awsome](https://fontawesome.com).

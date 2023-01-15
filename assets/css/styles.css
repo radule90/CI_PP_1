@@ -377,3 +377,28 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Footer social network icons */
+.footer-social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-social li {
+    display: inline-block;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.75rem;
+    padding: .15rem .5rem;
+}
+
+.footer-social a:hover, 
+.footer-section a:focus {
+    color: #323232;
+    background-color: #e4e5fe;
+    border-radius: .15em;
+}

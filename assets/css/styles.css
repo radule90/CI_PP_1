@@ -274,3 +274,32 @@ body {
     color: #9a9efb;
     transform: scale(1.1);
 }
+
+
+/* Connect section styles */
+
+.connect-section {
+    background-color: #fff;
+    padding-block: 4rem;
+    border-block-start: 1px solid;
+    /* For liinear gradient border, i read this article https://stackoverflow.com/questions/2717127/gradient-borders and adjusted the code */
+    border-image: linear-gradient(.25turn, #fff, #9a9efb, #fff);
+    border-image-slice: 1;
+}
+
+/* Subheading Connect style */
+
+.icon-letter img {
+    width: 3rem;
+    vertical-align: middle;
+    transform: skewY(-5deg);
+}
+
+.icon-letter {
+    display: inline-block;
+}
+
+.connect-section .subheading {
+    text-align: center;
+    padding-block-end: 4rem;
+}

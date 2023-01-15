@@ -367,3 +367,13 @@ body {
     border-color: #9a9efb;
     box-shadow: 0 0 5px #9a9efb;
 }
+
+/* Footer section styles */
+.footer-section {
+    background-color: #323232;
+    color: #fff;
+    padding: 7vh 1vh 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

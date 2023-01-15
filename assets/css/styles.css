@@ -291,13 +291,14 @@ body {
 /* Subheading Connect style */
 
 .icon-letter img {
-    width: 3rem;
+    width: 1.5em;
     vertical-align: middle;
     transform: skewY(-5deg);
 }
 
 .icon-letter {
     display: inline-block;
+    padding-inline-end: .25em;
 }
 
 .connect-section .subheading {
@@ -337,4 +338,28 @@ body {
 .form-wrap textarea {
     resize: vertical;
     min-height: 15vh;
+}
+
+/* Form button styles */
+
+.btn-wrap {
+    text-align: end;
+}
+
+.btn {
+    font-size: inherit;
+    background-color: #9a9efb;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: .25em;
+    padding: .75em 1.5em;
+    cursor: pointer;
+}
+
+.btn:hover, 
+.btn:focus {
+    background-color: #fff;
+    color: #9a9efb;
+    border-color: #9a9efb;
+    box-shadow: 0 0 5px #9a9efb;
 }

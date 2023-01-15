@@ -218,6 +218,7 @@ body {
 
 
 /* Gallery container */
+/* I ve used code for gallery from https://www.w3schools.com/css/css3_flexbox_responsive.asp and adjusted for website needs */
 .gallery {
     display: flex;
     flex-wrap: wrap;

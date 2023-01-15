@@ -304,3 +304,37 @@ body {
     text-align: center;
     padding-block-end: 4rem;
 }
+
+/* Connect section form styles */
+/* Form container styles */
+.form-wrap {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #e4e5fe;
+    color: #424242;
+    border-radius: .25rem;
+    box-shadow: 0 0 10px #b3b6fc;
+}
+
+/* Form input fields */
+
+.form-wrap input, 
+.form-wrap textarea {
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 500;
+    border: #9a9efb;
+    border: 1px solid #9a9efb;
+    border-radius: .25rem;
+    padding: .5em;
+    margin-block-end: 1.25rem;
+    color: #424242;
+    outline: #9a9efb;
+}
+
+.form-wrap textarea {
+    resize: vertical;
+    min-height: 15vh;
+}

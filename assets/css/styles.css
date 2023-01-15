@@ -273,7 +273,7 @@ body {
 
 .gallery-btn a {
     text-decoration: none;
-    color: #fff;
+    color: #220B38;
 }
 
 .follow-instagram-wrap {
@@ -294,7 +294,7 @@ body {
 .follow-instagram-wrap:hover,
 .follow-instagram-wrap:focus {
     background-color: #fff;
-    color: #9a9efb;
+    color: #220B38;
     transform: scale(1.1);
 }
 
@@ -371,8 +371,8 @@ body {
 .btn {
     font-size: inherit;
     background-color: #9a9efb;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #220B38;
+    border: 1px solid #9a9efb;
     border-radius: .25em;
     padding: .75em 1.5em;
     cursor: pointer;
@@ -381,7 +381,7 @@ body {
 .btn:hover, 
 .btn:focus {
     background-color: #fff;
-    color: #9a9efb;
+    color: #220B38;
     border-color: #9a9efb;
     box-shadow: 0 0 5px #9a9efb;
 }

@@ -60,7 +60,7 @@ body {
 
 .nav-list li {
     display: inline-block;
-    padding-inline-start: 1rem;
+    padding-inline-start: 1.25em;
 }
 
 .nav-list li:first-child {
@@ -70,7 +70,6 @@ body {
 .nav-header a {
     text-decoration: none;
     color: #1a1a1a;
-    text-transform: uppercase;
 }
 
 .nav-list a:hover,

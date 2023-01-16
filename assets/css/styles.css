@@ -104,7 +104,9 @@ body {
 .section-wrap-inner {
     text-align: left;
     line-height: 1.5;
-    padding: 4rem 1.5rem;
+    padding-block: 4rem;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .section-wrap-inner p {
@@ -235,7 +237,7 @@ body {
 
 .gallery-section {
     background-color: #fff;
-    padding: 4rem 1.5rem;
+    padding-block: 4rem;
 }
 
 
@@ -247,6 +249,8 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 0;
+    width: 90%;
+    margin: 0 auto;
 }
 
 /* Images and column containers for small screens */
@@ -446,12 +450,20 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5%;
-        padding-inline: 2.5rem;
+        gap: 10%;
     }
     .text-box {
         flex: 60%;
     }
+
+    .subheading {
+        font-size: 2.5rem;
+    }
+
+    .article-heading {
+        font-size: 2rem;
+    }
+
     .icon-deco {
         padding-block-start: 0;
         flex: 30%;
@@ -466,14 +478,10 @@ body {
         flex-direction: row-reverse;
         text-align: end;
     }
-    
-    /* Gallery narrow */
-    .gallery-section {
-        padding-inline: 2.5rem;
-    }
 
-    /* Form */
+    /* Connect narrow */
     .form-wrap {
         width: 70%;
     }
 }
+

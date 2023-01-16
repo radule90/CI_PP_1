@@ -601,3 +601,24 @@ body {
         width: 45%;
     }
 }
+/* 4K screens */
+@media only screen and (min-width: 2560px) {
+    /* Blog narrow */
+    .section-wrap-inner {
+        width: 70%;
+    }
+    
+    .icon-deco img {
+        width: 60%;
+    }
+        
+    /* Gallery narrow */
+    .gallery {
+        width: 70%;
+    }
+
+    /* Connect narrow */
+    .form-wrap {
+        width: 30%;
+    }
+}

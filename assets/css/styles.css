@@ -110,6 +110,7 @@ body {
 
 .arrow-up-fixed .fa-angle-double-up {
     color: #fff;
+    font-size: 1.5rem;
 }
 
 
@@ -484,7 +485,7 @@ body {
 
     /* Arrow fixed link to top */
     .arrow-up-fixed .fa-angle-double-up {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     /* Rearrange article content and give space between  */
@@ -657,8 +658,7 @@ body {
     .article-image-calais {
         background-attachment: scroll;
 }
-}
-}
+}}
 /* Test website on real Safari 11+ */
 
 /* Safari 10.1 */
@@ -671,8 +671,7 @@ body {
     .article-image-calais {
         background-attachment: scroll;
 }
-}
-}
+}}
 
 /* Safari 6.1-10.0 (but not 10.1) */
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){ 
@@ -682,7 +681,6 @@ body {
     .article-image-positano,
     .article-image-ostend,
     .article-image-calais {
-        background-attachment: scroll;
-}
-}
+        background-attachment: scroll; }
+    }
 }

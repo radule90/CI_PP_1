@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
 
 /* CSS Reset */
 
@@ -70,6 +70,7 @@ body {
 .nav-header a {
     text-decoration: none;
     color: #1a1a1a;
+    font-weight: 500;
 }
 
 .nav-list a:hover,
@@ -418,4 +419,26 @@ body {
     color: #323232;
     background-color: #e4e5fe;
     border-radius: .15em;
+}
+
+
+/*  For tablets  */
+@media only screen and (min-width: 480px)  {
+    /* Add little space between nav list elements */
+    .nav-list li {
+        padding-inline-start: 2em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Redirect flow of nav elements */
+    .nav-header {
+        flex-direction: row;
+        align-items: center;
+    }
+    /* Margin 0, so that heading can be centred with nav list */
+    .main-heading {
+        margin-block-end: 0;
+    }
+
 }

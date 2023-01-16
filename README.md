@@ -50,7 +50,7 @@ cwebp [options] -q input_file -o output_file.webp
 ## Styling / Formating
 
 - In HTML I have used semantic elements in appropriate places and HTML entities. Whereas I used div (non-semantic) elements as container for decorative images and for positioning.
-- [Write better CSS using logical properties](https://www.youtube.com/watch?v=kzvmaVik4mA)
+- Some time ago I came across this one [Write better CSS using logical properties](https://www.youtube.com/watch?v=kzvmaVik4mA), and because of the recommendation I started using logical properties.
 - I did most of the positioning with Flexbox (learnd at [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)), while I feel comfortable working with it.
 - For embellishment and a kind of interactivity, I applied the transform property with the function scale ([Code Institute - Love Running Project](https://codeinstitute.net/de/)) and skew function ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)) in several places.
 

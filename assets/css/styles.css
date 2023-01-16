@@ -1,3 +1,5 @@
+/* After watching https://www.youtube.com/watch?v=kzvmaVik4mA for most where were possible I ve used logical properties */
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
 
 /* CSS Reset */
@@ -102,11 +104,11 @@ body {
 /* General section styles */
 
 .section-wrap-inner {
-    text-align: left;
+    text-align: start;
     line-height: 1.5;
     padding-block: 4rem;
     width: 90%;
-    margin: 0 auto;
+    margin-inline: auto;
 }
 
 .section-wrap-inner p {
@@ -251,7 +253,7 @@ body {
     align-items: center;
     line-height: 0;
     width: 90%;
-    margin: 0 auto;
+    margin-inline: auto;
 }
 
 /* Images and column containers for small screens */
@@ -288,7 +290,7 @@ body {
     border-radius: .25em .5em;
     height: 2.5rem;
     width: fit-content;
-    margin: 0 auto;
+    margin-inline: auto;
     padding: .25em;
 }
 
@@ -339,7 +341,7 @@ body {
 /* Form container styles */
 .form-wrap {
     width: 80%;
-    margin: 0 auto;
+    margin-inline: auto;
     padding: 2rem;
     background-color: #e4e5fe;
     color: #424242;
@@ -397,7 +399,7 @@ body {
 .footer-section {
     background-color: #323232;
     color: #fff;
-    padding: 7vh 1vh 1vh;
+    padding: 4rem 1.25rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -553,6 +555,11 @@ body {
     /* Connect narrow */
     .form-wrap {
         width: 55%;
+    }
+
+    /* Footer padding-inline */
+    .footer-section {
+        padding-inline: 2.5rem;
     }
 }
 

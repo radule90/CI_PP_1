@@ -18,7 +18,7 @@
 html {
     color: #4a4a4a;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 body {
@@ -58,5 +58,24 @@ body {
 
 .icon {
     width: 90%;
-    filter: drop-shadow(-10px -20px 15px #9a9efb);
+    filter: drop-shadow(-10px -20px 10px #9a9efb);
+    padding-block-end: 3rem;
+}
+
+/* Link to home page styles */
+.link-home {
+    text-decoration: none;
+    color: #3a3a3a;
+    border: 1px solid #fff;
+    padding: .75rem;
+    border-radius: 1.25rem;
+    background-color: #9a9efb;
+    box-shadow: 2px 2px 10px #fff;
+}
+
+.link-home:hover,
+.link-home:focus {
+    background-color: #fff;
+    border: 1px solid #9a9efb;
+    box-shadow: 2px 2px 10px #9a9efb;
 }

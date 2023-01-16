@@ -430,6 +430,7 @@ body {
     }
 }
 
+/* For small screens and laptops */
 @media only screen and (min-width: 768px) {
     /* Redirect flow of nav elements */
     .nav-header {
@@ -440,5 +441,29 @@ body {
     .main-heading {
         margin-block-end: 0;
     }
+    /* Rearrange article content and give space between  */
+    .section-wrap-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        padding-inline: 2.5rem;
+    }
+    .text-box {
+        flex: 60%;
+    }
+    .icon-deco {
+        padding-block-start: 0;
+        flex: 30%;
+    }
+    
+    .icon-deco img {
+        width: 100%;
+    }
 
+    /* Evrey 2nd article reverse content */
+    .adventure-article:nth-of-type(2n) .section-wrap-inner {
+        flex-direction: row-reverse;
+        text-align: end;
+    }
 }

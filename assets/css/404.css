@@ -40,4 +40,15 @@ body {
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 30px #9a9efb;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.error-text {
+    padding-block-end: 4rem;
+}
+
+.error-text h1 {
+    font-size: 5rem;
+    padding-block-end: 1rem;
 }

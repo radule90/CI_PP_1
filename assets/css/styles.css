@@ -466,4 +466,14 @@ body {
         flex-direction: row-reverse;
         text-align: end;
     }
+    
+    /* Gallery narrow */
+    .gallery-section {
+        padding-inline: 2.5rem;
+    }
+
+    /* Form */
+    .form-wrap {
+        width: 70%;
+    }
 }

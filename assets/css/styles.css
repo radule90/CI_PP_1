@@ -175,7 +175,7 @@ body {
 /* Article styles */
 .article-heading {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 500;
     padding-block-end: 1rem;
 }
 
@@ -435,6 +435,7 @@ body {
     }
 }
 
+
 /* For small screens and laptops */
 @media only screen and (min-width: 768px) {
     /* Redirect flow of nav elements */
@@ -471,7 +472,7 @@ body {
     }
     
     .icon-deco img {
-        width: 100%;
+        width: 90%;
     }
 
     /* Evrey 2nd article reverse content */
@@ -486,3 +487,37 @@ body {
     }
 }
 
+
+/* For desktops and large screens */
+@media only screen and (min-width: 1024px) {
+    
+    /* Blog narrow */
+    .section-wrap-inner {
+        width: 85%;
+    }
+
+    .icon-deco img {
+        width: 85%;
+    }
+    
+    /* Gallery narrow */
+    .gallery {
+        width: 85%;
+    }
+    
+    /* Images and column containers for large screens */
+    .column {
+        flex: 33%;
+        max-width: 33%;
+    }
+    
+    /* Last column in the image gallery is shown for large screens */
+    .column:last-child {
+        display: block;
+    }
+
+    /* Connect narrow */
+    .form-wrap {
+        width: 60%;
+    }
+}

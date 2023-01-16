@@ -115,21 +115,20 @@ I used [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp) co
 
 ### Accessibility
 
-- Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).
+- Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).  
 - The following results were achieved on Chrome Lighthouse:
 
-SLIKA REZULTATA!!!!!!!
 
-- The site looks good on all common screen sizes, including 4k ([iOS Devices Bug](#bugs)).
+- The site looks good on all common screen sizes, including 4k ([iOS Devices Bug](#bugs)).  
 
-- The navigation bar, header, about, blog, connect and footer sections are all readable and understandable with working internal and external links.
+- The navigation bar, header, about, blog, connect and footer sections are all readable and understandable with working internal and external links.  
 
-- The Connect form works, and requires input to every entry.
+- The Connect form works, and requires input to every entry.  
 
 
 ### Bugs
 
-#### Partialy bugs
+#### Unfixed bugs
 - Proporty background-attachment with value fixed does not work properly on iOS devices (iPads, iPhones). Tested with [BrowserStack](https://www.browserstack.com/).
  
   - Possible solutions 

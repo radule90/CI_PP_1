@@ -25,3 +25,16 @@ body {
     width: 100%;
     min-height: 100vh;
 }
+
+/* Error card styles */
+.error-card {
+    background-color: #e4e5fe;
+    max-width: 80%;
+    max-height: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px #9a9efb;
+}

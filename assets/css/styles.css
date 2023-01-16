@@ -271,7 +271,7 @@ body {
 }
 
 
-/* Gallery button (Instagram) styles*/
+/* Gallery button (Instagram) styles */
 .gallery-btn {
     padding-block-start: 4rem;
 }
@@ -283,6 +283,7 @@ body {
 
 .follow-instagram-wrap {
     background-color: #9a9efb;
+    border: 1px solid #fff;
     box-shadow: 0 0 5px #9a9efb;
     border-radius: .25em .5em;
     height: 2.5rem;
@@ -299,6 +300,7 @@ body {
 .follow-instagram-wrap:hover,
 .follow-instagram-wrap:focus {
     background-color: #fff;
+    border-color: #9a9efb;
     color: #220B38;
     transform: scale(1.1);
 }
@@ -377,7 +379,7 @@ body {
     font-size: inherit;
     background-color: #9a9efb;
     color: #220B38;
-    border: 1px solid #9a9efb;
+    border: 1px solid #fff;
     border-radius: .25em;
     padding: .75em 1.5em;
     cursor: pointer;

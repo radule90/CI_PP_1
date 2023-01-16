@@ -44,11 +44,19 @@ body {
     font-size: 1.25rem;
 }
 
+/* Card text styles */
 .error-text {
-    padding-block-end: 4rem;
+    padding-block-end: 2.5rem;
 }
 
 .error-text h1 {
     font-size: 5rem;
     padding-block-end: 1rem;
+}
+
+/* Icon styles */
+
+.icon {
+    width: 90%;
+    filter: drop-shadow(-10px -20px 15px #9a9efb);
 }

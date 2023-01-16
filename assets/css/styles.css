@@ -276,6 +276,8 @@ body {
 /* Gallery button (Instagram) styles */
 .gallery-btn {
     padding-block-start: 4rem;
+    width: fit-content;
+    margin-inline: auto;
 }
 
 .gallery-btn a {
@@ -288,10 +290,7 @@ body {
     border: 1px solid #fff;
     box-shadow: 0 0 5px #9a9efb;
     border-radius: .25em .5em;
-    height: 2.5rem;
-    width: fit-content;
-    margin-inline: auto;
-    padding: .25em;
+    padding: .5em;
 }
 
 .follow-instagram-wrap .fa-square-instagram {

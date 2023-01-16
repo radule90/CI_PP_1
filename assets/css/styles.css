@@ -521,3 +521,15 @@ body {
         width: 60%;
     }
 }
+
+/* For extra large screens */
+@media only screen and (min-width: 1201px) {
+    .nav-header {
+        padding-inline: 2.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .main-heading {
+        font-size: 3.25rem;
+    }
+}

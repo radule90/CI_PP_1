@@ -137,6 +137,19 @@ I used [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp) co
 
 ***
 
+## Deployment
+
+This site was deployed through GitHub Pages using the following steps:
+
+1. Sign in to the GitHub website.
+2. In the GitHub project repository, navigate to the Settings tab, then choose Pages from the menu
+3. From the Build and deployment section select Branch: main and then save.
+4. After about a minute, refresh the page and under GitHub Pages you will see a link.
+
+The live link can be found here: [Milica Radulovic - My Yoga Adventure](https://radule90.github.io/CI_PP_1/).
+
+***
+
 ## Credits
 
 - [Code Institute](https://codeinstitute.net/de/)

@@ -1,36 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Quicksand:wght@300;500&display=swap');
-
-/* CSS Reset */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-/* General styles */
-
-:root {
-    scroll-behavior: smooth;
-}
-
-html {
-    color: #4a4a4a;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-}
-
-body {
-    width: 100%;
-    min-height: 100vh;
+.error-body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Error card styles */
 .error-card {
+    font-weight: 500;
     background-color: #e4e5fe;
     max-width: 85vw;
     padding: 1rem;

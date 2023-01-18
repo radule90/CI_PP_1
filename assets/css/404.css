@@ -1,10 +1,14 @@
+/* Error page body layout */
+
 .error-body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+
 /* Error card styles */
+
 .error-card {
     font-weight: 500;
     margin-inline: auto;
@@ -15,19 +19,16 @@
 }
 
 /* Card text styles */
-.error-text {
-    padding-block-end: 1.5rem;
-}
 
 .error-text h1 {
     font-size: 3.5rem;
-    padding-block-end: 1.5rem;
+    padding-block-end: 1rem;
 }
 
 /* Icon styles */
 
 .icon-error {
-    padding-block-end: 1.5rem;
+    padding-block: 1.5rem;
 }
 
 .icon-error img {
@@ -35,12 +36,17 @@
         filter: drop-shadow(-10px -20px 10px #9a9efb);
 }
 
-/* Link to home page styles */
-.link-home-error {
+/* Homepage button styles */
+.error-card a {
     text-decoration: none;
+}
+
+.link-home-error {
+    width: fit-content;
+    margin-inline: auto;
     color: #3a3a3a;
     border: 1px solid #fff;
-    padding: 1rem;
+    padding: .5em;
     border-radius: 1.75em;
     background-color: #9a9efb;
     box-shadow: 2px 2px 10px #fff;
@@ -54,14 +60,19 @@
     box-shadow: 2px 2px 10px #9a9efb;
 }
 
-/* For small screens and laptops and up */
+/* For small screens and laptops */
 @media only screen and (min-width: 768px) {
     /* Bigger text and paddings */
     .error-card {
-        font-size: 2rem;
+        padding: 2rem;
+        font-size: 1.75rem;
     }
 
     .error-text h1 {
-        font-size: 6.5rem;
+        font-size: 5.5rem;
+    }
+
+    .icon-error {
+        padding-block: 2rem;
     }
 }

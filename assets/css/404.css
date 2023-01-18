@@ -55,17 +55,17 @@ body {
 
 /* Icon styles */
 
-.icon {
+.icon-error {
     padding-block-end: 2.5rem;
 }
 
-.icon img {
+.icon-error img {
         max-width: 70%;
         filter: drop-shadow(-10px -20px 10px #9a9efb);
 }
 
 /* Link to home page styles */
-.link-home {
+.link-home-error {
     text-decoration: none;
     color: #3a3a3a;
     border: 1px solid #fff;
@@ -76,8 +76,8 @@ body {
     text-transform: uppercase;
 }
 
-.link-home:hover,
-.link-home:focus {
+.link-home-error:hover,
+.link-home-error:focus {
     background-color: #fff;
     border: 1px solid #9a9efb;
     box-shadow: 2px 2px 10px #9a9efb;

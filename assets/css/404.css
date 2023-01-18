@@ -16,6 +16,7 @@
     padding: 1.25rem;
     box-shadow: 0 0 30px #9a9efb;
     text-align: center;
+    border-radius: .25em;
 }
 
 /* Card text styles */
@@ -64,7 +65,7 @@
 @media only screen and (min-width: 768px) {
     /* Bigger text and paddings */
     .error-card {
-        padding: 2rem;
+        padding: 1.5rem;
         font-size: 1.75rem;
     }
 
@@ -74,5 +75,24 @@
 
     .icon-error {
         padding-block: 2rem;
+    }
+}
+
+
+/* For large screens */
+@media only screen and (min-width: 1024px) {
+    /* Bigger text and paddings */
+    .error-card {
+        max-width: 60%;
+        padding: 2rem;
+        font-size: 2rem;
+    }
+
+    .error-text h1 {
+        font-size: 6.5rem;
+    }
+
+    .icon-error {
+        padding-block: 2.5rem;
     }
 }

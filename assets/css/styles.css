@@ -49,9 +49,16 @@ body {
     background-color: #9a9efb;
     padding: .75rem 1.25rem;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+/* Code to hide on large screens collapsed menu elements */
+
+.nav-menu span,
+.nav-menu input,
+.nav-menu label {
+    display: none;
 }
 
 /* Navigation list and link styles */
@@ -86,7 +93,6 @@ body {
 
 .main-heading {
     font-size: 2rem;
-    margin-block-end: 2rem;
 }
 
 .main-heading a:hover,
@@ -443,27 +449,91 @@ body {
     transform: scale(1.3);
 }
 
-/*  For tablets  */
-@media only screen and (min-width: 480px)  {
-    /* Add little space between nav list elements */
+/*  For screens up to 768px  */
+@media only screen and (max-width: 768px)  {
+
+    /* Code is taken from https://maxpelic.com/blog/post/css-only-menu/#home modified adjusted for this site purpose */
+
+    .nav-menu span,
+    .nav-menu input,
+    .nav-menu label {
+        display: initial;
+    }
+
+    .nav-menu span {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 2rem;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0.5rem;
+        right: 1rem;
+        text-align: end;
+        min-height: 2.5rem;
+        overflow: hidden;
+    }
+
+    .nav-menu input {
+        display: none;
+    }
+
+    .nav-menu input:checked~label span:last-child {
+        display: none;
+    }
+
+    .nav-menu input:not(:checked)~label span:first-child {
+        display: none;
+    }
+
+    .nav-menu .nav-list {
+        overflow: hidden;
+        background-color: #fff;
+        width: 0;
+        height: 0;
+        border-radius: .25em;
+        transition: width 0.5s, height 0.5s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
     .nav-menu .nav-list li {
-        padding-inline-start: 2em;
+        padding: 0;
+    }
+
+    .nav-menu input:checked~ul {
+        width: 8rem;
+        height: 6.5rem;
+    }
+
+    .nav-menu .nav-list li a {
+        display: block;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.5rem;
+        letter-spacing: 2px;
+        transition: color 0.5s, background 0.5s;
+    }
+
+    .nav-menu .nav-list li a:hover {
+        color: #9a9efb;
     }
 }
 
 
 /* For small screens and laptops */
 @media only screen and (min-width: 768px) {
-    /* Redirect flow of nav elements */
-    .nav-header {
-        flex-direction: row;
-        align-items: center;
-    }
-    /* Margin 0, so that heading can be centred with nav list */
-    .main-heading {
-        margin-block-end: 0;
-    }
 
+    /* Set nav bar to fixed */
+    .nav-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
     /* Rearrange article content and give space between  */
     .section-wrap-inner {
         display: flex;

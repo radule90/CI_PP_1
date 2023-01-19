@@ -94,21 +94,6 @@ body {
     color: #fff;
 }
 
-/* Arrow fixed link to scroll to the top of the page */
-.arrow-up-fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: .25em .25em 0 0;
-    padding: .25em;
-}
-
-.arrow-up-fixed .fa-angle-double-up {
-    color: #fff;
-    font-size: 1.5rem;
-}
-
 
 /* Main body styles */
 
@@ -477,11 +462,6 @@ body {
     /* Margin 0, so that heading can be centred with nav list */
     .main-heading {
         margin-block-end: 0;
-    }
-
-    /* Arrow fixed link to top */
-    .arrow-up-fixed .fa-angle-double-up {
-        font-size: 2rem;
     }
 
     /* Rearrange article content and give space between  */

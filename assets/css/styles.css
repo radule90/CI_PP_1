@@ -741,6 +741,11 @@ body {
     justify-content: space-between;
 }
 
+/* Header to relative for proper positionig of error page */
+.error-body .nav-header {
+    position: relative;
+}
+
 /* Error page card styles */
 
 .error-card {
@@ -755,8 +760,8 @@ body {
 
 /* Error page card text styles */
 
-.error-text h1 {
-    font-size: 3.5rem;
+.error-text h2 {
+    font-size: 3rem;
     padding-block-end: 1rem;
 }
 
@@ -767,7 +772,7 @@ body {
 }
 
 .icon-error img {
-        max-width: 50%;
+        max-width: 40%;
         filter: drop-shadow(-10px -20px 10px #9a9efb);
 }
 
@@ -804,12 +809,12 @@ body {
         font-size: 1.75rem;
     }
 
-    .error-text h1 {
-        font-size: 5.5rem;
+    .error-text h2 {
+        font-size: 5rem;
     }
 
     .icon-error {
-        padding-block: 2rem;
+        padding-block: 1.75rem;
     }
 }
 
@@ -823,11 +828,11 @@ body {
         font-size: 2rem;
     }
 
-    .error-text h1 {
+    .error-text h2 {
         font-size: 6.5rem;
     }
 
     .icon-error {
-        padding-block: 3rem;
+        padding-block: 2rem;
     }
 }

@@ -108,7 +108,7 @@ The Business Goals of this website:
 ***
 ## Visual Design
 ### Wireframes
-Initial [Wireframes]() can be found here.
+Initial [Wireframes](assets/images/readme-img/) can be found here.
 
 ### Colors
 - For the base color, a shade of purple was chosen, a nice color that corresponds to the theme of the site.

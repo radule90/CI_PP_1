@@ -31,6 +31,7 @@
 3. <details>
     <summary><a href="#styling-and-formating">Styling and Formating</a></summary>
 
+      - [Head Section](#head-section)
       - [Header Section](#header-section)
       - [About Section](#about-section)
       - [Blog Section](#blog-section)
@@ -108,7 +109,7 @@ The Business Goals of this website:
 ***
 ## Visual Design
 ### Wireframes
-Initial [Wireframes](assets/images/readme-img/) can be found here.
+Initial [Wireframes](assets/images/readme-img/wireframes/) can be found here.
 
 ### Colors
 - For the base color, a shade of purple was chosen, a nice color that corresponds to the theme of the site.
@@ -132,7 +133,7 @@ For the color of the letters, a shade of dark gray was chosen because it is not 
 ### Images
 - Images are a very important part of this site, because the theme of the site is yoga journey.
 - All photos are the property of Milica Radulovic.
-- I converted the images to [WebP](https://developers.google.com/speed/webp) format. After installing the libwep codec, the photos were converted in terminal with a command:
+- I converted the images with [GIMP](https://www.gimp.org/) and [WebP](https://developers.google.com/speed/webp) to WebP format. After installing the libwep codec, the photos were converted in terminal with a command:
 
 ```sh
 cwebp [options] -q input_file -o output_file.webp
@@ -145,9 +146,14 @@ cwebp [options] -q input_file -o output_file.webp
 - I did most of the positioning with Flexbox (learnd at [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)), while I feel comfortable working with it.
 - For embellishment and a kind of interactivity, I applied the transform property with the function scale ([Code Institute - Love Running Project](https://codeinstitute.net/de/)) and skew function ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)) in several places.
 
+### Head Section
+- For meta data I added character set, keywords, description, viewport, linked css file
+- I also added a favicon. Favicon icon is from Icons8 and generated with [Favicon Generator](https://www.favicon-generator.org/)
+- And title for each html page
+
 ### Header Section
 - The background image over the entire viewport seemed to me to be a fairly nice solution, because the user immediately gets to know the person whose journey they are going to read about.
-- I also add the transparent mask to navigation bar in order to improve readability.  
+- For the header i decided for small screens to have collapsible menu, I restyled the code and adapted it to the site ([Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home)) and for larger than 768px regular navigation bar, as you can see here:
 ![Website Header](assets/images/readme-img/header.webp)
 
 ### About Section
@@ -273,6 +279,7 @@ The live link can be found here: [Milica Radulovic - My Yoga Adventure](https://
 - [Google Fonts](https://fonts.google.com)
 - [ICONS8](https://icons8.de) - Decorative icons
 - [Font Awsome](https://fontawesome.com) - Icons
+- [GIMP](https://www.gimp.org/)
 
 ***
 ## Content

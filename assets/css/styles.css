@@ -56,16 +56,16 @@ body {
 
 /* Navigation list and link styles */
 
-.nav-list {
+.nav-menu .nav-list {
     list-style-type: none;
 }
 
-.nav-list li {
+.nav-menu .nav-list li {
     display: inline-block;
     padding-inline-start: 1.25em;
 }
 
-.nav-list li:first-child {
+.nav-menu .nav-list li:first-child {
     padding-inline-start: 0;
 }
 
@@ -75,8 +75,8 @@ body {
     font-weight: 500;
 }
 
-.nav-list a:hover,
-.nav-list a:focus {
+.nav-menu .nav-list a:hover,
+.nav-menu .nav-list a:focus {
     color: #fff;
     font-weight: 500;
 }
@@ -446,7 +446,7 @@ body {
 /*  For tablets  */
 @media only screen and (min-width: 480px)  {
     /* Add little space between nav list elements */
-    .nav-list li {
+    .nav-menu .nav-list li {
         padding-inline-start: 2em;
     }
 }

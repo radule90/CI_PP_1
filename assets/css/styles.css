@@ -102,6 +102,41 @@ body {
 }
 
 
+/* Text animation header thanks to Mozilla Developer Network resources */
+.header-animation {
+    position: absolute;
+    top: -10rem;
+    left: 50%;
+    transform: translate(-50%);
+    animation-name: text-animation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 2;
+}
+
+.header-animation-second {
+    animation-delay: 4s;
+}
+
+.header-animation-third {
+    animation-delay: 8s;
+  }
+
+  @keyframes text-animation {
+    from {
+      top: 25%;
+    }
+    to {
+      top: 35%;
+      opacity: 0;
+    }
+  }
+
 /* Main body styles */
 
 /* General section styles */

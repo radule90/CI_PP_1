@@ -89,6 +89,9 @@ body {
     font-weight: 500;
 }
 
+.nav-menu .nav-list li a {
+    text-transform: uppercase;
+}
 
 /* Main heading styles */
 
@@ -114,9 +117,10 @@ body {
     animation-timing-function: ease-out;
     font-size: 1.5rem;
     font-weight: 500;
-    color: whitesmoke;
+    color: #f5f5f5;
     text-align: center;
     line-height: 2;
+    width: 14ch;
 }
 
 .header-animation-second {
@@ -547,7 +551,7 @@ body {
 
     .nav-menu .nav-list {
         overflow: hidden;
-        background-color: #fff;
+        background: linear-gradient(0deg, rgba(154,154,251,1) 0%, rgba(255,235,205,1) 100%);
         width: 0;
         height: 0;
         border-radius: .25em;
@@ -561,14 +565,13 @@ body {
         padding: 0;
     }
 
-    .nav-menu input:checked~ul {
+    .nav-menu input:checked~.nav-list {
         width: 8rem;
-        height: 6.5rem;
+        height: 10rem;
     }
 
     .nav-menu .nav-list li a {
         display: block;
-        text-transform: uppercase;
         text-align: center;
         line-height: 1.5rem;
         letter-spacing: 2px;
@@ -590,6 +593,12 @@ body {
         top: 0;
         width: 100%;
     }
+
+    /* Text animation header larger font */
+    .header-animation {
+        font-size: 3rem;
+    }
+
     /* Rearrange article content and give space between  */
     .section-wrap-inner {
         display: flex;

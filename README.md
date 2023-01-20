@@ -1,7 +1,7 @@
 # Milica Radulovic - My Yoga Adventure
 
 
-![Website responsive](assets/images/readme-img/respo.webp)
+![Website responsive](assets/images/readme-img/home.webp)
 
 [Milica Radulovic - My Yoga Adventure](https://radule90.github.io/CI_PP_1/) website is set up as a personal yoga travel blog, where users can learn more about Milica and her love for yoga, and travel and connect. In terms of appearance, I tried to keep a minimalistic look with little detail that will embellish the site for visitors.
 
@@ -144,17 +144,21 @@ cwebp [options] -q input_file -o output_file.webp
 - In HTML I have used semantic elements in appropriate places and HTML entities. Whereas I used div (non-semantic) elements as container for decorative images and for positioning.
 - Some time ago I came across this one [Write better CSS using logical properties](https://www.youtube.com/watch?v=kzvmaVik4mA), and because of the recommendation I started using logical properties.
 - I did most of the positioning with Flexbox (learnd at [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)), while I feel comfortable working with it.
-- For embellishment and a kind of interactivity, I applied the transform property with the function scale ([Code Institute - Love Running Project](https://codeinstitute.net/de/)) and skew function ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)) in several places.
+- For embellishment and a kind of interactivity, I applied the and CSS transition property, transform property with the function scale ([Code Institute - Love Running Project](https://codeinstitute.net/de/)) and skew function ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)) in several places.
+- Below the titles I added a linear gradient line for decoration
 
 ### Head Section
 - For meta data I added character set, keywords, description, viewport, linked css file
 - I also added a favicon. Favicon icon is from Icons8 and generated with [Favicon Generator](https://www.favicon-generator.org/)
-- And title for each html page
+- And title for page
 
 ### Header Section
 - The background image over the entire viewport seemed to me to be a fairly nice solution, because the user immediately gets to know the person whose journey they are going to read about.
-- For the header i decided for small screens to have collapsible menu, I restyled the code and adapted it to the site ([Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home)) and for larger than 768px regular navigation bar, as you can see here:
+- Since the background image takes up the entire screen, I decided to add a small text. And I performed that by creating an text animation with CSS, for which I mostly used [Mozilla Developer Networks](https://developer.mozilla.org/en-US/) resources.
+- For the header i decided for small screens to have collapsible menu, I modified the code and adapted it to the site ([Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home)) and for larger than 768px regular navigation bar, as you can see here:
 ![Website Header](assets/images/readme-img/header.webp)
+- And here you can see CSS collapsible menu
+![Collapsible Menu](assets/images/readme-img/small.webp)
 
 ### About Section
 - The heading is aligned left on purpose because the text is directly related to it and represents the whole.
@@ -167,36 +171,38 @@ cwebp [options] -q input_file -o output_file.webp
 
 
 ### Blog Section
-- I used a slightly modified concept in this section. I didn't want to deviate too much because these two are similar, they have a lot of text and images.
+- I used a slightly modified concept in this section. I didn't want to deviate too much because these two are similar, they have a lot of text and background images.
 - Between articles there are background images that also represent the demarcation between different sections and articles.
-
+![Blog Section](assets/images/readme-img/blog.webp)
 
 ### Gallery Section
 - I decided for a white background in the next two sections of the site, in order to avoid monotony and make it clear to the user that the part of the site is finished (let's call it the "text part of the site") and the sections related to social networks and contact begin.
-I used [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp) code of the gallery to adapt it to the requiremnets of the project.
+- I used [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp) code of the gallery to adapt it to the requiremnets of the project.
 - The gallery is responsive. I decided that two columns should be displayed on small screens and three on large screens. I achieved this by setting the display of the last column container to none and using @media for a minimum width of 768px to display it again.
-- I added the instagram button as a suggestion to the user that they can find more images on the instagram profile of site owner.  
+- I also wanted the image to pop up on click, I found the article [Pop-up Image Lightbox in Pure CSS](https://codesalad.dev/blog/pop-up-image-lightbox-in-pure-css-25#_) and applied the code with additional changes.
+- I added the instagram button on top and bottom of gallery as a suggestion to the user that they can find more images on the instagram profile of site owner and connect.
 ![Website Gallery](assets/images/readme-img/gallery.webp)
 
 ### Connect Section
 - This section is separated from the rest with a border line, applied border image property with linear gradient (researched on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image)), it seemed like a nice and simple solution for dividing sections with a white background.
 - Then, I added a box shadow to make the shape stand out.
 - The form has validation and is responsive.  
-![Website Connect](assets/images/readme-img/connect.webp)
+![Website Connect](assets/images/readme-img/formrespo.webp)
 
 ### Footer Section
-- For this section i chose dark gray background color, at first I thought it should be a shade of purple, but however the site would become boring, this is how it suggests that this is the end of the site.
-- I included a short copyright text in it.
+- For this section i chose dark gray background color, at first I thought it should be a shade of purple, but however the site would become boring, but with kind of a drastic color change it suggests that this is the end of the site.
+- I included a copyright text in it.
 - Arrow to return to the top of the page, and when hovered over it scales itself as a suggestion that this is the link.
 - Also included are links to social networks and the colors are inverted on the hover as a hint that this is the link to the user.
+![Footer Photo](assets/images/readme-img/footer.webp)
 
 ### HTTP 404 Page
 - As a small addition I designed and developed an 404 HTTP error page.
 - I kept the header and footer of the main page, with minor changes.
 - I didn't want to be it too complicated, because there should be a simple message on this page. Using the same color palette and fonts I added an error message card and an additional link to the main page.
-![HTTP404 Image]()
+![HTTP404 Image](assets/images/readme-img/404respo.webp)
 
-- [Here you can find live site.]()
+- [Here you can find broken link as example for 404 page.](https://radule90.github.io/CI_PP_1/xyz)
 
 ***
 ## Validation and Testing
@@ -211,10 +217,16 @@ I used [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp) co
 
 ### Accessibility
 - Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).  
-- The following results were achieved on Chrome Lighthouse for mobile devices:
-![Chrome Mobile]()
 - The following results were achieved on Chrome Lighthouse for desktops:
-![Chrome Desktop]()
+![Chrome Desktop](assets/images/readme-img/home-desktop.webp)
+
+- The following results were achieved on Chrome Lighthouse for mobile devices:
+![Chrome Mobile](assets/images/readme-img/home-mobile.webp)
+
+- The following results were achieved on Chrome Lighthouse for 404 page on dekstop devices:
+![Chrome 404 Page Desktop](assets/images/readme-img/404-desktop.webp)
+- The following results were achieved on Chrome Lighthouse for 404 page on mobile devices:
+![Chrome 404 Page Mobile](assets/images/readme-img/404-mobile.webp)
 
 ### Testing
 #### General Testing
@@ -232,7 +244,9 @@ I used [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp) co
 
 ### Bugs
 ### Fixed Bugs
-- Chrome was returning errors for manifest, so I found and applied [this solution](https://github.com/jantimon/favicons-webpack-plugin/issues/212)
+- Chrome was returning erros:
+![Manifest Error](assets/images/readme-img/manifest.webp)
+ so I found [this solution](https://github.com/jantimon/favicons-webpack-plugin/issues/212)
 
 ### Unfixed Bugs (Partialy Fixed)
 - Proporty background-attachment with value fixed does not work properly on iOS devices (iPads, iPhones). Tested with [BrowserStack](https://www.browserstack.com/).
@@ -279,7 +293,8 @@ The live link can be found here: [Milica Radulovic - My Yoga Adventure](https://
 - [Google Fonts](https://fonts.google.com)
 - [ICONS8](https://icons8.de) - Decorative icons
 - [Font Awsome](https://fontawesome.com) - Icons
-- [GIMP](https://www.gimp.org/)
+- [GIMP](https://www.gimp.org/) - Raster graphics editor
+- [FireShot: Full Webpage Screenshots + Annotations](https://getfireshot.com/) - Screen Capture
 
 ***
 ## Content

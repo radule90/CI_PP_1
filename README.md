@@ -155,9 +155,9 @@ cwebp [options] -q input_file -o output_file.webp
 ### Header Section
 - The background image over the entire viewport seemed to me to be a fairly nice solution, because the user immediately gets to know the person whose journey they are going to read about.
 - Since the background image takes up the entire screen, I decided to add a small text. And I performed that by creating an text animation with CSS, for which I mostly used [Mozilla Developer Networks](https://developer.mozilla.org/en-US/) resources.
-- For the header i decided for small screens to have collapsible menu, I modified the code and adapted it to the site ([Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home)) and for larger than 768px regular navigation bar, as you can see here:
+- For the header i decided for small screens to have collapsible menu, I modified the code from [Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home) and adapted it to the site and for larger than 768px regular navigation bar, as you can see here:
 ![Website Header](assets/images/readme-img/header.webp)
-- And here you can see CSS collapsible menu
+- And here you can see CSS collapsible menu.  
 ![Collapsible Menu](assets/images/readme-img/small.webp)
 
 ### About Section

@@ -38,7 +38,7 @@ body {
     background-image: url('../images/header-img.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 40% 60%;
+    background-position: 40% 50%;
     height: 100vh;
     position: relative;
 }
@@ -159,6 +159,11 @@ body {
 .section-wrap-inner p:last-child {
     margin-block-end: 0;
 }  
+
+.section-wrap-inner .text-box ul {
+    padding-inline-start: 2.25rem;
+    padding-block-end: 1em;
+}
 
 /* Subheading styles */
 

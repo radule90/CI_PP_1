@@ -372,6 +372,82 @@ body {
 }
 
 
+/* Add Pop-up Image Lightbox in Pure CSS, code is taken from https://codesalad.dev/blog/pop-up-image-lightbox-in-pure-css-25#_ and adjusted for this site */
+.lightbox {
+    /* Default to hidden */
+    display: none;
+  
+    /* Overlay entire screen */
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    /* A bit of padding around image */
+    padding: 1em;
+  
+    /* Translucent background */
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Unhide the lightbox when it's the target */
+  .lightbox:target {
+    display: block;
+  }
+  
+  .lightbox span {
+    /* Full width and height */
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+    /* Size and position background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+
+  /* Zoomed background images */
+#gl1 span {
+    background-image: url('../images/gallery/gl1.webp');
+}
+#gl2 span {
+    background-image: url('../images/gallery/gl2.webp');
+}
+#gl3 span {
+    background-image: url('../images/gallery/gl3.webp');
+}
+#gl4 span {
+    background-image: url('../images/gallery/gl4.webp');
+}
+#gl5 span {
+    background-image: url('../images/gallery/gl5.webp');
+}
+#gl6 span {
+    background-image: url('../images/gallery/gl6.webp');
+}
+#gl7 span {
+    background-image: url('../images/gallery/gl7.webp');
+}
+#gl8 span {
+    background-image: url('../images/gallery/gl8.webp');
+}
+#gl9 span {
+    background-image: url('../images/gallery/gl9.webp');
+}
+#gl10 span {
+    background-image: url('../images/gallery/gl10.webp');
+}
+#gl11 span {
+    background-image: url('../images/gallery/gl11.webp');
+}
+#gl12 span {
+    background-image: url('../images/gallery/gl12.webp');
+}
+
 /* Connect section styles */
 
 .connect-section {

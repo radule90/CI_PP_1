@@ -293,6 +293,11 @@ body {
 
 /* Gallery section */
 
+.gallery-section {
+    background-color: #fff;
+    padding-block: 4rem;
+}
+
 .gallery-section .subheading {
     text-align: center;
     font-weight: 500;
@@ -300,11 +305,25 @@ body {
 
 .subheading-wrap {
     padding-block-end: 4rem;
+    text-align: center;
 }
 
-.gallery-section {
-    background-color: #fff;
-    padding-block: 4rem;
+.gallery-section .subheading-wrap p {
+    font-size: 1.25rem;
+}
+
+.subheading-wrap a {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(0deg, #9a9efb 0%,pink 100%);
+    padding: .15em .25em;
+    border-radius: .25em;
+    font-weight: 500;
+}
+
+.subheading-wrap a:hover {
+    background: linear-gradient(0deg, pink 0%, #9a9efb 100%);
+    border: 1px solid #9a9efb;
 }
 
 
@@ -970,6 +989,7 @@ body {
 
 .icon-error img {
         max-width: 40%;
+        height: auto;
         filter: drop-shadow(-10px -20px 10px #9a9efb);
 }
 

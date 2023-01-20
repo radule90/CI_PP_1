@@ -33,7 +33,7 @@ body {
 /* Header styles */
 
 /* Header background and font styles */
-
+/* Heo image */
 .header {
     background-image: url('../images/header-img.webp');
     background-repeat: no-repeat;
@@ -81,6 +81,7 @@ body {
     text-decoration: none;
     color: #220B38;
     font-weight: 500;
+    transition: all 0.3s linear;
 }
 
 .nav-menu .nav-list a:hover,
@@ -173,7 +174,7 @@ body {
 /* Subheading decoration underline */
 .subheading-underline {
     height: 1px;
-    width: 10rem;
+    width: 5rem;
     border-bottom: 2px solid;
     border-image: linear-gradient(0.25turn, #9a9efb, #ffc0cb, #9a9efb);
     border-image-slice: 1;
@@ -354,6 +355,7 @@ body {
     box-shadow: 0 0 5px #9a9efb;
     border-radius: .25em .5em;
     padding: .5em;
+    transition: all 0.5s linear;
 }
 
 .follow-instagram-wrap .fa-square-instagram {
@@ -446,6 +448,7 @@ body {
     border-radius: .25em;
     padding: .75em 1.5em;
     cursor: pointer;
+    transition: all 0.3s linear;
 }
 
 .btn:hover, 
@@ -482,14 +485,15 @@ body {
     text-decoration: none;
     color: white;
     font-size: 1.75rem;
-    padding: .15rem .5rem;
+    padding: .05rem .25rem;
+    border-radius: .15em;
+    transition: all 0.5s linear;
 }
 
 .footer-social a:hover, 
 .footer-social a:focus {
     color: #323232;
     background-color: #e4e5fe;
-    border-radius: .15em;
 }
 
 /* Arrow to the top page */
@@ -502,6 +506,7 @@ body {
     right: 50%;
     bottom: 60%;
     font-size: 1.5rem;
+    transition: 0.5s linear;
 }
 
 .arrow-up:hover,
@@ -510,7 +515,7 @@ body {
 }
 
 /*  For screens up to 768px  */
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 767px)  {
 
     /* Code for collapsed menu is taken from https://maxpelic.com/blog/post/css-only-menu/#home modified adjusted for this site purpose */
 
@@ -580,6 +585,11 @@ body {
 
     .nav-menu .nav-list li a:hover {
         color: #9a9efb;
+    }
+
+    /* Select last two child elements https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child */
+    .nav-menu .nav-list li:nth-last-child(-n+2) a:hover {
+        color: blanchedalmond;
     }
 }
 

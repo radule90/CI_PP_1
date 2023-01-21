@@ -215,13 +215,13 @@ cwebp [options] -q input_file -o output_file.webp
 ## Validation and Testing
 ### HTML Validation
 - has been validated with [W3C Markup Validation Service](https://validator.w3.org).  
-![HTML Testing]()
+![HTML Testing](assets/images/readme-img/html.webp)
 
 ### CSS Validation
 - Add vendor prefixes to CSS with [Autoprefixer](https://autoprefixer.github.io).
 - has been validated with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).  
-![CSS Testing]()
-(See more for [iOS Devices Bug](#bugs)
+![CSS Testing](assets/images/readme-img/css.webp)  
+(See more for [iOS Devices Bug](#bugs))
 
 ### Accessibility
 - Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).  
@@ -307,7 +307,7 @@ The live link can be found here: [Milica Radulovic - My Yoga Adventure](https://
 ## Content
 - The base code for the "Parallax" Scrolling effect was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp), and then adjusted for the needs of the site.
 - The base code for the Gallery was taken from [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp), and then I adjusted it for the needs of the site.
-- The base code for the Collapsible menu was taken [Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home), and then I adjusted it for the needs of the site.
+- The base code for the Collapsible menu was taken from [Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home), and then I adjusted it for the needs of the site.
 - The base code for the Lightbox in Gallery section was taken from [Pop-up Image Lightbox in Pure CSS](https://codesalad.dev/blog/pop-up-image-lightbox-in-pure-css-25#_), and then adjusted for the needs of the site.
 
 

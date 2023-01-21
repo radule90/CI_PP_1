@@ -145,12 +145,12 @@ cwebp [options] -q input_file -o output_file.webp
 - Some time ago I came across this one [Write better CSS using logical properties](https://www.youtube.com/watch?v=kzvmaVik4mA), and because of the recommendation I started using logical properties.
 - I did most of the positioning with Flexbox (learnd at [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)), while I feel comfortable working with it.
 - For embellishment and a kind of interactivity, I applied the and CSS transition property, transform property with the function scale ([Code Institute - Love Running Project](https://codeinstitute.net/de/)) and skew function ([MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)) in several places.
-- Below the titles I added a linear gradient line for decoration
+- Below the titles I added a linear gradient line for decoration.
 
 ### Head Section
-- For meta data I added character set, keywords, description, viewport, linked css file
-- I also added a favicon. Favicon icon is from Icons8 and generated with [Favicon Generator](https://www.favicon-generator.org/)
-- And title for page
+- For meta data I added character set, keywords, description, viewport, linked css file.
+- I also added a favicon. Favicon icon is from Icons8 and generated with [Favicon Generator](https://www.favicon-generator.org/).
+- And title for page.
 
 ### Header Section
 - The background image over the entire viewport seemed to me to be a fairly nice solution, because the user immediately gets to know the person whose journey they are going to read about.
@@ -219,7 +219,6 @@ cwebp [options] -q input_file -o output_file.webp
 - Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).  
 - The following results were achieved on Chrome Lighthouse for desktops:
 ![Chrome Desktop](assets/images/readme-img/home-desktop.webp)
-
 - The following results were achieved on Chrome Lighthouse for mobile devices:
 ![Chrome Mobile](assets/images/readme-img/home-mobile.webp)
 
@@ -235,24 +234,24 @@ cwebp [options] -q input_file -o output_file.webp
 - The Connect form works, and requires input to every entry.  
 
 #### Desktop Testing
-- The site was tested on a macOS computer and performed very well
-- It was tested on several Windows computers by acquaintances and friends, worked without error
+- The site was tested on a macOS computer and performed very well.
+- It was tested on several Windows computers by acquaintances and friends, worked without errors.
 
 #### Mobile Testing
-- It has been successfully tested on multiple android devices and also on multiple virtual devices at [BrowserStack](https://www.browserstack.com/)
-- There is a bug on iOS devices (Read more: [iOS Devices Bug](#bugs))
+- It has been successfully tested on multiple android devices and also on multiple virtual devices at [BrowserStack](https://www.browserstack.com/).
+- There is a bug on iOS devices (Read more: [iOS Devices Bug](#bugs)).
 
 ### Bugs
 ### Fixed Bugs
 - Chrome was returning erros:
 ![Manifest Error](assets/images/readme-img/manifest.webp)
- so I found [this solution](https://github.com/jantimon/favicons-webpack-plugin/issues/212)
+ so I found [this solution](https://github.com/jantimon/favicons-webpack-plugin/issues/212).
 
 ### Unfixed Bugs (Partialy Fixed)
 - Proporty background-attachment with value fixed does not work properly on iOS devices (iPads, iPhones). Tested with [BrowserStack](https://www.browserstack.com/).
  
   - Possible solutions 
-    - The solution that is to change the value of    background-attachment to scroll for mobile phones and tablets sizes ([W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)). But I didn't want to implement this solution, because the page was displayed normally on Android and HarmonyOS devices.
+    - The solution that is to change the value to `background-attachment: scroll;` for mobile phones and tablets sizes ([W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp)). But I didn't want to implement this solution, because the page was displayed normally on Android and HarmonyOS devices.
     - Rory (mentor) referred me to [this article](https://www.browserstack.com/guide/create-browser-specific-css) on [BrowserStack](https://www.browserstack.com/) to try to come up with a solution. After applying the CSS code for browser recognition and testing on a certain number of iOS devices on [BrowserStack](https://www.browserstack.com/), the browser, Safari, was recognized and the `background-attachment: scroll;` property was applied to it and the site worked, the problem remained with older models. Although it is not the best solution and the way the code is structured for Safari compatibility, it causes the jigsaw test to show errors ([Look at CSS Validation](#css-validation)). Since I did not find that this error affects the operation on other devices, and the site works decently on newer ios devices I decided to implement it. In the future when I learn new technologies I will fix the bug.
 
 ***
@@ -299,7 +298,10 @@ The live link can be found here: [Milica Radulovic - My Yoga Adventure](https://
 ***
 ## Content
 - The base code for the "Parallax" Scrolling effect was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_parallax.asp), and then adjusted for the needs of the site.
-- The base code for the Gallery section was taken from [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp), and then I adjusted it for the needs of the site.
+- The base code for the Gallery was taken from [W3Schools](https://www.w3schools.com/css/css3_flexbox_responsive.asp), and then I adjusted it for the needs of the site.
+- The base code for the Collapsible menu was taken [Pure CSS collapsible menu](https://maxpelic.com/blog/post/css-only-menu/#home), and then I adjusted it for the needs of the site.
+- The base code for the Lightbox in Gallery section was taken from [Pop-up Image Lightbox in Pure CSS](https://codesalad.dev/blog/pop-up-image-lightbox-in-pure-css-25#_), and then adjusted for the needs of the site.
+
 
 ***
 ## Media

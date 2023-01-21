@@ -618,7 +618,7 @@ body {
 }
 
 /*  For screens up to 768px  */
-@media only screen and (max-width: 767px)  {
+@media only screen and (max-width: 768px)  {
 
     /* Code for collapsed menu is taken from https://maxpelic.com/blog/post/css-only-menu/#home modified adjusted for this site purpose */
 

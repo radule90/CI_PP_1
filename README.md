@@ -110,7 +110,8 @@ The Business Goals of this website:
 ***
 ## Visual Design
 ### Wireframes
-Initial [Wireframes](assets/images/readme-img/wireframes/) can be found here.
+- Initial [Wireframes](assets/images/readme-img/wireframes/mobile/) for mobile design.
+- Initial [Wireframes](assets/images/readme-img/wireframes/desktop) for desktop design.
 
 ### Colors
 - For the base color, a shade of purple was chosen, a nice color that corresponds to the theme of the site.
@@ -219,9 +220,9 @@ cwebp [options] -q input_file -o output_file.webp
 
 ### CSS Validation
 - Add vendor prefixes to CSS with [Autoprefixer](https://autoprefixer.github.io).
-- has been validated with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).  
+- CSS has been validated with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and shows errors related to CSS code for Safari compatibility (See more for [iOS Devices Bug](#bugs)).
 ![CSS Testing](assets/images/readme-img/css.webp)  
-(See more for [iOS Devices Bug](#bugs))
+The screenshot was taken before Autoprefiker was used, at the moment of submitting the project I could not access the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) (Error 522), a new screenshot will be uploaded as soon as the site is available.
 
 ### Accessibility
 - Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).  

@@ -222,7 +222,7 @@ cwebp [options] -q input_file -o output_file.webp
 - Add vendor prefixes to CSS with [Autoprefixer](https://autoprefixer.github.io).
 - CSS has been validated with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and shows errors related to CSS code for Safari compatibility (See more for [iOS Devices Bug](#bugs)).
 ![CSS Testing](assets/images/readme-img/css.webp)  
-The screenshot was taken before Autoprefiker was used, at the moment of submitting the project I could not access the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) (Error 522), a new screenshot will be uploaded as soon as the site is available.
+The screenshot was taken before [Autoprefixer](https://autoprefixer.github.io) was used, at the moment of submitting the project I could not access the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) (Error 522), a new screenshot will be uploaded as soon as the site is available.
 
 ### Accessibility
 - Color contrast was verified on [WebAIM](https://webaim.org/resources/contrastchecker/).  

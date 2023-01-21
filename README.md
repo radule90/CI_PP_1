@@ -29,7 +29,7 @@
 </details>
 
 3. <details>
-    <summary><a href="#styling-and-formating">Styling and Formating</a></summary>
+    <summary><a href="#styling-formating-and-features">Styling, Formating and Features</a></summary>
 
       - [Head Section](#head-section)
       - [Header Section](#header-section)
@@ -39,6 +39,7 @@
       - [Connect Section](#connect-section)
       - [Footer Section](#footer-section)
       - [HTTP 404 Page](#http-404-page)
+      - [Future Features](#future-features)
 
 </details>
 
@@ -140,7 +141,7 @@ cwebp [options] -q input_file -o output_file.webp
 ```
 
 ***
-## Styling and Formating
+## Styling, Formating and Features
 - In HTML I have used semantic elements in appropriate places and HTML entities. Whereas I used div (non-semantic) elements as container for decorative images and for positioning.
 - Some time ago I came across this one [Write better CSS using logical properties](https://www.youtube.com/watch?v=kzvmaVik4mA), and because of the recommendation I started using logical properties.
 - I did most of the positioning with Flexbox (learnd at [CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)), while I feel comfortable working with it.
@@ -204,6 +205,12 @@ cwebp [options] -q input_file -o output_file.webp
 
 - [Here you can find broken link as example for 404 page.](https://radule90.github.io/CI_PP_1/xyz)
 
+### Future Features
+- With the addition of additional content, sections should be rearranged into separate pages.
+- Add a Carousel/Slider with additional animations to the home page
+- Embed Instagram Feeds on Blog section/page
+- Scroll animations with CSS and JavaScript
+
 ***
 ## Validation and Testing
 ### HTML Validation
@@ -211,6 +218,7 @@ cwebp [options] -q input_file -o output_file.webp
 ![HTML Testing]()
 
 ### CSS Validation
+- Add vendor prefixes to CSS with [Autoprefixer](https://autoprefixer.github.io).
 - has been validated with [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).  
 ![CSS Testing]()
 (See more for [iOS Devices Bug](#bugs)
@@ -281,7 +289,7 @@ The live link can be found here: [Milica Radulovic - My Yoga Adventure](https://
 - [Github](https://github.com/) - Storing code remotely and deployment
 - [W3C Markup Validation Service](https://validator.w3.org)
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-- [CSS Autoprefixer](https://autoprefixer.github.io/)
+- [CSS Autoprefixer](https://autoprefixer.github.io/) - Autoprefixer CSS online
 - [Coolors.co](https://coolors.co/) - Palette generator
 - [Balsamiq Wireframes](https://balsamiq.com/) - To create wireframes
 - [WebAIM](https://webaim.org/resources/contrastchecker/) - Contrast checker
